@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<br/>
+<div class="container">
+  <p>
+  <u><b>11/02/20 :</b> <i>online now!</i></u>
+  <br/><br/>
+  The website is online! The (99% finished) web-version of Issue 1 is available in
+  the <a href="{% url 'issue1' %}">catalogue</a> section. Once it's completely
+  completed, Krala and I will order a batch of paper copies to sell for a
+  thoroughly reasonable price.
+  </p>
+  <br />
+  <p>
+  <u><b>08/02/20 :</b> <i>online soon</i></u>
+  <br/><br/>
+  The website revamp is getting some momentum now. Everything should be updated by next week.
+  </p>
+  <br />
+  <p>
+  <u><b>09/01/20 :</b> <i>new website</i></u>
+  <br/><br/>
+  Welcome to the new website!
+  </p>
+  <br/>
+</div>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<br/>
+<center>
+<div class="card mb-3 text-monospace" style="max-width: 600px; background-color:#D0EAEA; border: #3084a8; border-style: dashed; border-width: 0px;">
+  <div class="card-body">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{% static 'images/issue1_cover.png' %}" class="card-img" alt="issue1_cover">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><b>Issue 1 :<br/>"Breaking Into Prison"</b></h5>
+        <p class="card-text">Emmet & Krala argue about how to write an introduction to the Kill Team Six universe.</p>
+        <p align="center"><a href="{% static 'pdfs/kt6_issue1.pdf' %}" target="_blank" style="background-color:#a9cece" class="btn"><b>READ</b></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</center>
+<br/>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<br/>
+<center>
+  <div class="alert alert-warning" role="alert">
+
+<div class="card-deck border-dark mb-3" style="width: 50rem;">
+
+  <div class="card" align="center">
+    <img src="{% static 'images/system_map.png' %}" class="card-img-top" alt="System Map">
+    <div class="card-body">
+      <h6 class="card-title">Systems Map</h6>
+      <p class="card-text"><a href="{% static 'images/system_map.png' %}" target="_blank">full-size</a></p>
+    </div>
+  </div>
+
+  <div class="card" align="center">
+    <img src="{% static 'images/issue1_krala_golfsale.png' %}" class="card-img-top" alt="Krala's Old Job">
+    <div class="card-body">
+      <h6 class="card-title">Krala's Old Job</h6>
+      <p class="card-text"><a href="{% static 'images/issue1_krala_golfsale.png' %}" target="_blank">full-size</a></p>
+    </div>
+  </div>
+
+  <div class="card" align="center">
+    <img src="{% static 'images/issue1_cover.png' %}" class="card-img-top" alt="Issue #1 Cover">
+    <div class="card-body">
+      <h6 class="card-title">Issue #1 Cover</h6>
+      <p class="card-text"><a href="{% static 'images/issue1_cover.png' %}" target="_blank">full-size</a></p>
+    </div>
+  </div>
+
+  <div class="card" align="center">
+    <img src="{% static 'images/issue1_card_yash.png' %}" class="card-img-top" alt="Yash Card">
+    <div class="card-body">
+      <h6 class="card-title">Card #2<br/>Yash</h6>
+      <p class="card-text"><a href="{% static 'images/issue1_card_yash.png' %}" target="_blank">full-size</a></p>
+    </div>
+  </div>
+
+  <div class="card" align="center">
+    <img src="{% static 'images/issue1_card_krala.png' %}" class="card-img-top" alt="Krala Card">
+    <div class="card-body">
+      <h6 class="card-title">Card #1<br/>Krala</h6>
+      <p class="card-text"><a href="{% static 'images/issue1_card_krala.png' %}" target="_blank">full-size</a></p>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</center>
+
+
+{% endblock %}
